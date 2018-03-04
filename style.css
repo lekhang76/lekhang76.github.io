@@ -1,0 +1,97 @@
+body {
+  width: 1263px;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+}
+ul {
+  background-color: white;
+  list-style-type: none;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.left {
+  float: left;
+  padding: 0px 10px;
+  text-align: left;
+}
+.right {
+  float: right;
+  padding: 0px 10px;
+  text-align: right;
+}
+li {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  display: inline-block;
+}
+a:link, a:visited {
+  color:black;
+  text-decoration:none;
+}
+#head {
+  font-family: "Bembo italic";
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: auto;
+  color: white;
+  text-align: left;
+  border-bottom: 5px solid lightgray;
+}
+.text1 {
+  margin: 5px;
+  padding: 11% 0 19% 5%;
+  line-height: 0.3;
+  font-size: 22px;
+}
+#center {
+  background-color: lightgray;
+  width: inherit;
+  overflow: hidden;
+  height: auto;
+  border-bottom: 1px solid gray;
+}
+.text2 {
+  height: 7%;
+  line-height: 0.8;
+  padding-left: 5%;
+  font-family: "Arial";
+  text-align: left; 
+}
+.img {
+  padding-left: 3%;
+}
+.cot {
+  margin: 0;
+  width: 360px;
+  float: left;
+  padding: 15px;
+}
+.img1 {
+  width: 360px;
+  padding: 15px;
+}
+.img2 {
+  width: 360px;
+  padding: 15px;
+}
+.img3 {
+  width: 356px;
+  padding: 15px;
+}
+#footer {
+  background-color: #EDEDED;
+  text-align: left;
+  padding-left: 3.5%;
+  height: 200px;
+}
+#footer a {
+  color:blue;
+  font-family: sans-serif;
+}
+p {
+  font-family: sans-serif;
+}
