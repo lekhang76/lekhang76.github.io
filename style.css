@@ -1,13 +1,14 @@
 body {
-  width: 1263px;
+  width: 100%;
   margin: auto;
   text-align: center;
   height: 100%;
+  overflow: visible;
 }
 ul {
   background-color: white;
   list-style-type: none;
-  padding: 20px;
+  padding: 25px;
   font-family: sans-serif;
 }
 .left {
@@ -28,10 +29,11 @@ li {
 }
 a:link, a:visited {
   color:black;
-  text-decoration:none;
+}
+#thetop a {
+    text-decoration:none;
 }
 #head {
-  font-family: "Bembo italic";
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,10 +41,9 @@ a:link, a:visited {
   height: auto;
   color: white;
   text-align: left;
-  border-bottom: 5px solid lightgray;
 }
 .text1 {
-  margin: 5px;
+  margin: 0;
   padding: 11% 0 19% 5%;
   line-height: 0.3;
   font-size: 22px;
@@ -55,11 +56,10 @@ a:link, a:visited {
   border-bottom: 1px solid gray;
 }
 .text2 {
-  height: 7%;
-  line-height: 0.8;
+  line-height: 0.6;
   padding-left: 5%;
   font-family: "Arial";
-  text-align: left; 
+  text-align: left;
 }
 .img {
   padding-left: 3%;
@@ -86,6 +86,7 @@ a:link, a:visited {
   background-color: #EDEDED;
   text-align: left;
   padding-left: 3.5%;
+  padding-right: 7%;
   height: 200px;
 }
 #footer a {
@@ -94,4 +95,104 @@ a:link, a:visited {
 }
 p {
   font-family: sans-serif;
+}
+@media only screen and (min-width: 992px) and (max-width: 2048px) and (orientation: landscape) {
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-family: sans-serif; 
+  }
+  ul {
+    background-color: gray;
+  }
+  a:link, a:visited {
+    color: white;
+    text-decoration:none;
+  }
+  #head {
+    background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
+  }
+  .text1 {
+    padding: 5% 30% 7% 2%;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    color: black;
+  }
+  #center {
+    background-color: white;
+    border-style: none;
+    padding: 0;
+  }
+  #footer {
+    background-color: white;
+  }
+  #footer .cot {
+  width: auto;
+  }
+  .img, .text2 {
+    line-height: 1.5;
+    padding: 2%;
+  }
+  .cot, .img1, .img2, .img3 {
+    padding: 0 30px 30px 0;
+  }
+  h1, h2, h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .cot, .img {
+    width: 95%;
+  }
+  .text1, .text2 {
+    width: auto;
+  }
+    body {
+    font-family: sans-serif; 
+  }
+  ul {
+    background-color: gray;
+  }
+  a:link, a:visited {
+    color: white;
+    text-decoration:none;
+  }
+  #head {
+    background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
+  }
+  .text1 {
+    padding: 5% 40% 5% 2%;
+    line-height: 1.5;
+    border-bottom: 1px solid black;
+    color: black;
+    width: 90%;
+  }
+  #center {
+    background-color: white;
+    border-style: none;
+    padding: 0;
+  }
+  #footer {
+    background-color: white;
+  }
+  #footer .cot {
+  width: auto;
+  }
+  .img, .text2 {
+    line-height: 1.5;
+    padding: 2%;
+  }
+  .cot, .img1, .img2, .img3 {
+    padding: 0 30px 30px 0;
+  }
+  h1, h2, h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 14px
+  }
 }
