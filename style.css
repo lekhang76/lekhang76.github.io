@@ -53,7 +53,6 @@ a:link, a:visited {
   width: inherit;
   overflow: hidden;
   height: auto;
-  border-bottom: 1px solid gray;
 }
 .text2 {
   line-height: 0.6;
@@ -112,9 +111,11 @@ p {
   }
   #head {
     background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
+    width: 90%;
+    padding: 3%;
   }
   .text1 {
-    padding: 5% 30% 7% 2%;
+    padding: 5% 5% 7% 0;
     line-height: 1.5;
     border-bottom: 1px solid black;
     color: black;
@@ -144,7 +145,7 @@ p {
     font-size: 14px
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .cot, .img {
     width: 95%;
   }
@@ -163,13 +164,15 @@ p {
   }
   #head {
     background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
+    width: 90%;
+    padding: 3%;
   }
   .text1 {
-    padding: 5% 40% 5% 2%;
+    padding: 5% 5% 5% 0;
     line-height: 1.5;
     border-bottom: 1px solid black;
     color: black;
-    width: 90%;
+    width: inherit;
   }
   #center {
     background-color: white;
