@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box
+}
 body {
   width: 100%;
   margin: auto;
@@ -34,9 +37,6 @@ a:link, a:visited {
     text-decoration:none;
 }
 #head {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: inherit;
   height: auto;
   color: white;
@@ -65,27 +65,29 @@ a:link, a:visited {
 }
 .cot {
   margin: 0;
-  width: 360px;
+  width: 390px;
   float: left;
   padding: 15px;
 }
 .img1 {
   width: 360px;
+  height: auto;
   padding: 15px;
 }
 .img2 {
   width: 360px;
+  height: auto;
   padding: 15px;
 }
 .img3 {
-  width: 356px;
+  width: 360px;
+  height: auto;
   padding: 15px;
 }
 #footer {
   background-color: #EDEDED;
   text-align: left;
   padding-left: 3.5%;
-  padding-right: 7%;
   height: 200px;
 }
 #footer a {
@@ -96,7 +98,15 @@ p {
   font-family: sans-serif;
 }
 @media only screen and (min-width: 992px) and (max-width: 2048px) and (orientation: landscape) {
-  
+  body {
+  max-width: 1263px;
+  height: 100%;
+  }
+  #head {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   body {
@@ -110,8 +120,7 @@ p {
     text-decoration:none;
   }
   #head {
-    background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
-    width: 90%;
+    width: 95%;
     padding: 3%;
   }
   .text1 {
@@ -164,7 +173,7 @@ p {
   }
   #head {
     background-image: url("https://drive.google.com/open?id=1S4-C2kQMduqHvaPov5z3EBk5_Lql6p_v");
-    width: 90%;
+    width: 95%;
     padding: 3%;
   }
   .text1 {
