@@ -1,0 +1,36 @@
+-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |      qwas |      dssd |    2.000000 |          THAC_SI |    500 |                2 |2050.0
+ |    2 |     dfsdf |         3 |    3.000000 |     TRUONG_PHONG |   2000 |                3 |4280.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |      asaf |         1 |    1.000000 |        NHAN_VIEN |    500 |                1 |1260.0
+ |    2 |      dfaf |         2 |    2.000000 |          THAC_SI |    500 |                2 |2050.0
+ |    3 |    ewfwef |      ewfw |    2.000000 |          THAC_SI |    500 |                2 |2050.0
+ |    4 |      fgfg |      rgwr |    3.000000 |     TRUONG_PHONG |   2000 |                3 |4280.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |     wfsdf |     werwe |    2.000000 |          CU_NHAN |    300 |                3 |1895.0
+ |    2 |       rfd |       fhg |    2.000000 |        PHO_PHONG |   1000 |                2 |2520.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |    rfasdf |         1 |    2.000000 |     TRUONG_PHONG |   2000 |                3 |3550.0
+ |    2 |      gfsd |       wsd |    1.000000 |          THAC_SI |    500 |                1 |1275.0
+ |    3 |     edgwe |      wetg |    1.000000 |        NHAN_VIEN |    500 |                2 |1290.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |         1 |         1 |    1.000000 |          CU_NHAN |    300 |                1 |1075.0
+ |    2 |       213 |        23 |    1.100000 |        NHAN_VIEN |    500 |              123 |4993.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |         1 |         1 |    1.000000 |          CU_NHAN |    300 |                1 |1075.0
+ |    2 |         2 |         2 |    2.000000 |        PHO_PHONG |   1000 |                2 |2520.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    2 |     adasd |       das |    1.123210 |        PHO_PHONG |   1000 |               12 |2179.9433
+ |    1 |       asd |      asda |    1.000000 |          CU_NHAN |    300 |                1 |1075.0
+ |-- Danh sach tat ca can bo cua truong --
+ |  STT |    Ho ten |Phong khoa | He so luong |Trinh do/ Chuc vu |Phu cap |So ngay / So tiet |Luong
+ |    1 |         1 |    1werwe | 2312.000000 |          CU_NHAN |    300 |                1 |1688105.0
+ |    2 |       wer |         2 |  234.000000 |        PHO_PHONG |   1000 |               32 |172780.0
+ |
